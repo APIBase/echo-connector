@@ -1,5 +1,5 @@
 {
-  "name": "gtable-connector",
+  "name": "csv-connector",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
