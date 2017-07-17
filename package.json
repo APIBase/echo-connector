@@ -9,6 +9,6 @@
   "author": "John Sun",
   "license": "MIT",
   "dependencies": {
-    "apibase-client": "^0.1.0"
+    "csvjson": "^4.3.3"
   }
 }
