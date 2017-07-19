@@ -1,5 +1,5 @@
 usage example (using the request module)
-```json
+```js
 var request = require('request');
 var URL='http://johnsd.cse.unsw.edu.au:3000/data/ingest';
 var TARGET_RESOURCE_TYPE = 'cvs';
@@ -10,13 +10,13 @@ var CSV = "sr,name,age,gender\n" +
 CSV = new Buffer(CSV).toString('base64');
 
 request.post(URL, {
-  json: true, {
+  "json": true, {
     "connector": "01cf471c-a911-4a4d-a8e6-c07034b2251b",
     "dataSource": {
       "data": CSV,
       "options": {
-        delimiter: ',',
-        quote: '""'
+        "delimiter": ',',
+        "quote": '""'
       }
     },
     "targetResourceType": "csv"
