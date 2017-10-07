@@ -9,6 +9,5 @@
   "author": "John Sun",
   "license": "MIT",
   "dependencies": {
-    "csvjson": "^4.3.3"
   }
 }
